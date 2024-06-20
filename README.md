@@ -1,7 +1,14 @@
 # COL216 LAB3 : Cache Simulator
+
+A simulator for the analysis of various cache configurations.
+
 1. To run this project : `make cacheSim`
-2. To get Simulaor output :
+2. To get Simulator output :
+
+
  ```./cacheSim <numSets> <numBlocks> <blockSize> <write-allocate/no-write-allocate> <write-through/write-back> <lru/fifo> < <tracefile>```
+
+
 3. As an example, a sample [trace file](gcc.trace) is also provided
 4. To remove executables : `make clean`
 5. [Please see the analysis report here](report.pdf)
